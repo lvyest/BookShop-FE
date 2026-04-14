@@ -8,6 +8,8 @@ declare module 'styled-components' {
       background: string;
       secondary: string;
       third: string;
+      border: string;
+      text: string;
     };
     heading: {
         [key in HeadingSize]: {
