@@ -14,5 +14,20 @@ declare module 'styled-components' {
             fontSize: string;
         }
     }
+    button: {
+        [key in ButtonSize] : {
+            fontSize: string;
+            padding: string;
+        }
+    }
+    buttonScheme: {
+        [key in ButtonScheme]: {
+            color: string;
+            backgroundColor: string;
+        }
+    }
+    borderRadius: {
+        default: string;
+    }
   }
 }
