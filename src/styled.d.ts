@@ -9,5 +9,10 @@ declare module 'styled-components' {
       secondary: string;
       third: string;
     };
+    heading: {
+        [key in HeadingSize]: {
+            fontSize: string;
+        }
+    }
   }
 }
