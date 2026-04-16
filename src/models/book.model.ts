@@ -1,6 +1,6 @@
 export interface Book {
     id: number;
-    title: "어린왕자들",
+    title: string,
     img: 7,
     category_id: 0,
     form: string;
